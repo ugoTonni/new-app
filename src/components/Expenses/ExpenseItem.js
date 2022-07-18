@@ -8,6 +8,7 @@ const ExpenseItem = (props) => {
     console.log('button clicked') 
   }
   return (
+    
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
 
@@ -17,6 +18,7 @@ const ExpenseItem = (props) => {
       </div>
       <button onClick={clicked} > click me </button>
     </Card>
+  
   );
 };
 
